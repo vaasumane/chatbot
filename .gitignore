@@ -1,0 +1,16 @@
+# Secrets — never commit your real API key
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Chroma local vector DB data (if it persists to disk)
+chroma_db/
+*.sqlite3
+
+# OS/editor cruft
+.DS_Store
+.vscode/
